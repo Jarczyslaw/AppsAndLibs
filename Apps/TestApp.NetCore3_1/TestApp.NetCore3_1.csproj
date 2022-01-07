@@ -6,4 +6,15 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Libraries\Library.NetCore3_1\Library.NetCore3_1.csproj" />
+    <ProjectReference Include="..\..\Libraries\Library.NetFramework4_8\Library.NetFramework4_8.csproj" />
+    <ProjectReference Include="..\..\Libraries\Library.NetStandard2_0\Library.NetStandard2_0.csproj" />
+    <ProjectReference Include="..\..\Libraries\Library.NetStandard2_1\Library.NetStandard2_1.csproj" />
+  </ItemGroup>
+
 </Project>
